@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:id="@+id/linearLayout">
+
+        <EditText
+            android:id="@+id/txtapi"
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="         Enter Your API key"
+
+            android:background="#D81B60"
+            android:drawableTint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+
+            android:layout_marginTop="21dp"
+            android:layout_alignParentTop="true" />
+
+        <EditText
+            android:id="@+id/txtsender"
+            android:hint="Sender"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:background="#D81B60"
+            android:drawableTint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+
+            android:drawableLeft="@drawable/ic_user_24dp"
+            android:drawablePadding="16dp"
+
+            android:layout_marginTop="34dp"
+            android:layout_below="@+id/txtapi"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/txtphone"
+            android:hint="Phone Number"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:background="#D81B60"
+            android:drawableTint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:drawableLeft="@drawable/ic_action_phone"
+            android:drawablePadding="15dp"
+
+
+
+            android:layout_marginTop="42dp"
+            android:layout_below="@+id/txtsender"
+            android:layout_alignLeft="@+id/txtsender"
+            android:layout_alignStart="@+id/txtsender" />
+
+        <EditText
+            android:id="@+id/txtmess"
+            android:hint="Message"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:background="#D81B60"
+            android:drawableTint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:drawableLeft="@drawable/ic_action_message"
+            android:drawablePadding="16dp"
+
+
+
+            android:layout_marginTop="37dp"
+            android:layout_below="@+id/txtphone"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/btnsend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#CE93D8"
+            android:textColor="@android:color/white"
+            android:text="Send"
+
+            android:layout_below="@+id/txtmess"
+            android:layout_centerHorizontal="true"
+
+            android:drawableTint="@android:color/white"
+            android:textColorHint="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:text="Developed By Gandhapu Kalyan "
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+
+</LinearLayout>
